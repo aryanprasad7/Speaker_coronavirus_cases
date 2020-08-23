@@ -7,9 +7,9 @@ import threading
 import time
 
 
-API_KEY = "tzpwYznOc5Fg"
-PROJECT_TOKEN = "t5A6emFrTZWN"
-RUN_TOKEN = "thqBsQ1iY4As"
+API_KEY = ""    # here will be the API_KEY which is generated from the parsehub server
+PROJECT_TOKEN = ""  # project token given by the parsehub tool
+RUN_TOKEN = ""  # run token given by the parsehub tool
 
 class Data:
     def __init__(self, api_key, project_token):
